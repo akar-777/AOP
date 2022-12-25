@@ -1,0 +1,8 @@
+<aspectj>
+    <aspects>
+        <aspect name="com.tosan.AOP.aspectjAnnotationSample1"/>
+        <weaver options="-verbose1 -showWeaveInfo1">
+            <include within="com.tosan.AOP1.*"/>
+        </weaver>
+    </aspects>
+</aspectj>
